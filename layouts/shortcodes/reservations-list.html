@@ -1,0 +1,24 @@
+{{ if .IsNamedParams }}
+<table id="reservations-table" style="width: 100%;">
+  <thead>
+    <tr>
+      <th>Vorname</th>
+      <th>Nachname</th>
+      <th>Lease Date</th>
+      <th>Return Date</th>
+      <th>is currently being rented</th>
+      <th>is currently returned</th>
+      <th>Actual returnDate</th>
+    </tr>
+  </thead>
+  <tbody>
+  {{ $data := $.Site.Data.rentals }}
+
+  {{ range $data }}
+    <tr>
+      {{ partial "rentals.html" . }}
+    </tr>
+  {{ end }}
+  </tbody>
+</table>
+{{- end -}}
