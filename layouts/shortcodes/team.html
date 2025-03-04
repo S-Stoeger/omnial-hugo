@@ -1,10 +1,10 @@
 <style>
-    .teamBox {padding: 0 2vh;}
-    .small-image {height: 15vw;}
+    .teamBox {padding: 0vh 2vh; margin: 2vh; width: 20vw; background-color: #596d8e; text-align: center; border-radius: 10px;}
+    .small-image {height: 15vw; justify-self: center;}
 </style>
 <br><br>
 <H1>Unser Team</H1>
-<div style="display: flex; width: 100%; padding-top: 0;">
+<div style="display: flex; width: 70vw;">
     <!--TODO: Bild Sophie und ned placeholder-->
     <div class="teamBox">
         <h2>Sophie Binder</h2>
@@ -35,7 +35,7 @@
         <h2>Moritz Wagner</h2>
         {{ $image := resources.Get "images/wagner.png" }}
         {{ $resized := $image.Resize "200x" }}
-        <img src="{{ $resized.RelPermalink }}" alt="Moritz Wagner" class="small-image" style="width:15vw" >
+        <img src="{{ $resized.RelPermalink }}" alt="Moritz Wagner" class="small-image" >
         <p>Moritz Wagner ist zuständig fürs Frontend</p>
     </div>
 </div>
