@@ -432,6 +432,8 @@ pre {
   }
   .article {
     flex-wrap: wrap;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 }
 
@@ -443,6 +445,8 @@ pre {
   }
   .article {
     flex-wrap: nowrap;
+    width: 100% !important;
+    max-width: 100% !important;
   }
 }
 

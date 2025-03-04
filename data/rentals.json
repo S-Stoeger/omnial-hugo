@@ -11,7 +11,7 @@
     "leaseDate": "2023-11-15T20:00:00.000+00:00",
     "returnDate": "2023-12-15T20:00:00.000+00:00",
     "actualReturnDate": "2023-12-15T20:00:00.000+00:00",
-    "rented": false,
+    "rented": true,
     "returned": false
     },
     {
@@ -26,7 +26,7 @@
     "leaseDate": "2023-11-15T20:00:00.000+00:00",
     "returnDate": "2023-11-17T20:00:00.000+00:00",
     "actualReturnDate": "2023-12-15T20:00:00.000+00:00",
-    "rented": true,
+    "rented": false,
     "returned": true
     }
 ]
