@@ -1,0 +1,36 @@
+<H1>Unser Team</H1>
+<div style="display: flex; width: 100%;">
+
+    <div>
+        <h2>Sophie Binder</h2>
+        <!--TODO: Bild Sophie-->
+        {{ $image := resources.Get "images/placeholder.png" }}
+        {{ $resized := $image.Resize "200x" }}
+        <img src="{{ $resized.RelPermalink }}" alt="Sophie Binder" class="small-image" style="padding: 2vh;">
+        <p>Sophie Binder ist unser SCRUM Master und arbeitet im Backend</p>
+    </div>
+
+    <div>
+        <h2>Sophie Stöger</h2>
+        {{ $image := resources.Get "images/stoeger.jpg" }}
+        {{ $resized := $image.Resize "200x" }}
+        <img src="{{ $resized.RelPermalink }}" alt="Sophie Stöger" class="small-image" style="padding: 2vh;">
+        <p>Sophie Stöger ist zuständig für Hosting auf der Leocloud und arbeitet auch im Backend</p>
+    </div>
+    
+    <div>
+        <h2>Maximilian Slabschi</h2>
+        {{ $image := resources.Get "images/slabschi.jpg" }}
+        {{ $resized := $image.Resize "200x" }}
+        <img src="{{ $resized.RelPermalink }}" alt="Maximilian Slabschi" class="small-image" style="padding: 2vh;">
+        <p>Maximilian Slabschi ist zuständig fürs Frontend</p>
+    </div>
+
+    <div>
+        <h2>Moritz Wagner</h2>
+        {{ $image := resources.Get "images/wagner.png" }}
+        {{ $resized := $image.Resize "200x" }}
+        <img src="{{ $resized.RelPermalink }}" alt="Moritz Wagner" class="small-image" style="padding: 2vh;">
+        <p>Moritz Wagner ist zuständig fürs Frontend</p>
+    </div>
+</div>

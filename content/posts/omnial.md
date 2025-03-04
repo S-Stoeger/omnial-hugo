@@ -7,9 +7,5 @@ title = 'Omnial'
 # Herzlich Willkommen zu Omnial!
 Unser Projekt OmniaL, ist eine Webanwendung, die das Reservieren von Räumen und das Entlehnen von Equipment auf einfache und effiziente Weise ermöglicht.
 
+{{< team >}}
 
-## Das Team
-- Sophie Binder (Scrum Master)
-- Sophie Stöger
-- Maximilian Slabschi
-- Moritz Wagner
